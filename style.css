@@ -80,26 +80,37 @@ ul li {
 }
 
 #box1 {
-    background-color: #8aa5a7;
+    padding-left: .5rem;
+}
+
+#box1 h2{
     padding-left: 3rem;
+   margin-top: 3rem;
 }
 
 #box2 {
-    background-color:#7E7D81;
-    color: #E9E9E9;
     padding: 3rem;
 }
 
 #box2 p {
-    padding-left: 5rem;
+    padding-left: 1rem;
 }
+
+#box2 h2 {
+    padding-left: 1rem;
+}
+
 
 @media only screen and (max-width: 600px) {
     #box2 p {
         font-size: medium;
       
     }
+        .row {
+            flex-direction: column-reverse;
+        }
   } 
+
 
 
 /* @media only screen and (max-width: 600px) {
